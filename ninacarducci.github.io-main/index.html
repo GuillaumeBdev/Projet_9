@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html http://ogp.me/ns# lang="fr">
+<html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Photographe professionnel en freelance, je vous propose plusieurs services photo : shooting photo, retouches et album photos" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,21 +10,19 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
-    />
+    />s
     <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
-	<meta property=”og:title” content=”Nina Carducci photographe portraits & événementiel” />
     <title>Nina Carducci photographe portraits & événementiel</title>
-	<meta property=”og:type” content=”Professional photography siteweb” />
+	<meta property=”og:title” content=”Nina Carducci photographe portraits & événementiel” />
+	<meta property=”og:type” content=”siteweb” />
 	<meta property=”og:image” content=”https://guillaumebdev.github.io/Projet_9/ninacarducci.github.io-main//assets/images/nina.webp”/>
 	<meta property=”og:url” content=”https://guillaumebdev.github.io/Projet_9/ninacarducci.github.io-main/” />
+  <meta property="og:description" content="Photographe professionnel en freelance, je vous propose plusieurs services photo : shooting photo, retouches et album photos"/>
+  <meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@publisher_handle">
+	<meta name="twitter:title" content="Photographe professionnel Nina Carducci">
+	<meta name="twitter:description" content="Photographe professionnel en freelance, je vous propose plusieurs services photo : shooting photo, retouches et album photos">
+	<meta name="twitter:image" content="https://guillaumebdev.github.io/Projet_9/ninacarducci.github.io-main/">
   </head>
   <body>
     <header class="top-header">
@@ -39,14 +38,14 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
-              ><img src="./assets/images/instagram.webp" alt="Logo d'Instagram"
+              ><img src="./assets/images/instagram.webp" width="40px" height="40px" alt="Logo d'Instagram"
             /></a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div id="header">
+      <section id="header">
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -78,7 +77,7 @@
             <div class="carousel-item active">
               <img
                 src="assets/images/slider/ryoji-iwata.webp"
-                class="d-block w-100"
+                class="d-block w-100" width="100%" height="100%"
                 alt="Homme en costume qui traverse un passage piéton"
               />
             </div>
@@ -116,11 +115,11 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
-      <div id="about">
+      </section>
+      <section id="about">
         <div class="picture left">
           <img
-            src="./assets/images/nina.webp"
+            src="./assets/images/nina.webp" width="100%" height="100%"
             alt="Portrait de la photographe professionnelle Nina Carducci"
           />
         </div>
@@ -144,8 +143,8 @@
             yeux sur vos photos.
           </p>
         </div>
-      </div>
-      <div id="gallery">
+      </section>
+      <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
@@ -219,8 +218,8 @@
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
         </div>
-      </div>
-      <div id="services">
+      </section>
+      <section id="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
           <div class="service">
@@ -265,7 +264,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div class="quote">
         <figure>
           <blockquote>
@@ -280,7 +279,7 @@
       </div>
     </main>
     <footer>
-      <div id="contact">
+      <section id="contact">
         <div class="container">
           <div class="form-container">
             <h2>Une question ? Une demande de devis ?</h2>
@@ -307,12 +306,20 @@
           </div>
           <div class="picture right">
             <img
-              src="./assets/images/camera.webp"
+              src="./assets/images/camera.webp" width="100%" height="100%"
               alt="Photo d'un appareil photo"
             />
           </div>
         </div>
-      </div>
+      </section>
     </footer>
   </body>
+  <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/scripts.js"></script>
 </html>
